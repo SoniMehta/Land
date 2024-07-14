@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+   
+    <style>
+      div.container{
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        background-color:white;
+        transform: translate(-50 -50);
+        transition: all;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0,0.3);
+        background-image: url('LandBG.jpeg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      div.navbar{
+        margin: 20px;
+        margin-left: 700px;
+        font-family: serif;
+        font-size: x-large;
+      }
+     a{
+        color: black;
+        text-decoration: none;
+        padding: 20px;
+     }
+     a:hover{
+      filter: drop-shadow(10px 10px 10px);
+     
+      color:blueviolet;
+     }
+     input.search{
+        border-radius: 20px;
+        padding: 10px;
+        font-family: serif;
+        font-size: 20;
+     }
+     div.home{
+        margin: 10px;
+        margin-left: 900px
+     }
+     h1.home{
+        font-family: serif;
+        font-size: 100px;
+     }
+     h2.home{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 100;
+        font-size: x-large;
+     }
+     div.about{
+        margin-left: 700px;
+        padding: 10px;
+     }
+     p.about{
+        font-family: serif;
+        font-size: x-large;
+     }
+     div.button{
+   margin-left: 200px;
+     }
+     button.about{
+        padding: 10px;
+        background-color: black;
+        border-radius: 10px;
+     }
+     a.about{
+        color: white;
+        font-size: larger;
+        font-family: serif;
+     }
+     div.container1{
+      margin-top: 400px;
+      margin-bottom: 200px;
+        margin-left: 300px;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+      align-items: center;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+     border-radius: 30px;
+     }
+     div.signup{
+        display: grid;
+        grid-template-rows: max-content;
+        margin: 10px;
+        gap: 15px;
+
+     }
+     h1.signup{
+        text-align: center;
+        font-family: serif;
+        font-size: xx-large;
+     }
+     label{
+        font-family: serif;
+        font-size: large;
+        padding: 0px;
+         }
+         input{
+            font-family: serif;
+            font-weight: 300;
+            border-radius: 20px;
+            padding: 7px;
+            padding-right: 80px;
+            padding-left: 20px;
+            font-size:15px;
+            text-align: left;
+         }
+         button.submit{
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            font-family: serif;
+            font-weight: bolder;
+            font-size: large;
+            background-color: black;
+            color: white;
+         }
+         button.submit:hover{
+            background-color: rgb(91, 187, 214);
+            color: black;
+         }
+         .services{
+            margin-bottom: 300px;
+            margin-left: 200px;
+            margin-top: 500px;
+            display: grid;
+            grid-template-rows:30px;
+            gap: 20px;
+         }
+         span{
+            font-size: xx-large;
+            font-family: serif;
+            font-weight: bolder;
+         }
+         i{
+            font-size: 50px;
+            transform: translate(-50 -50);
+            transition: all 1ms;
+
+         }
+         i:hover{
+             filter:drop-shadow( 20px 20px 20px)  
+            
+         }
+
+    </style>
+   
+
+</head>
+<body>
+    
+<div class="container">
+    <div class="navbar">
+        <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#signup">Signup</a>
+        <input class="search" type="" target="_blank" placeholder="search here">
+        
+        </nav>
+    </div>
+    <div id="home">
+        <div class="home">
+            <h1 class="home">Online Education</h1>
+            <h2 class="home">Your Way To knowledge</h2>
+        </div>
+    </div>
+    <div id="about">
+        <div class="about">
+            <p class="about">
+              Here, This website learn us to programming languages 
+              like html,css,js,sql.... In this website they have step wise 
+               learning and more information to do as well.After completion 
+               this course they have conduct some pratical questions
+               and they will conduct from  basic projects to advanced projects.
+               After submittion all projects you will recive programming certificates
+            </p>
+            <div class="button">
+            <button class="about">
+                <a class="about" href="https://w3schools.com"> Explore more</a>
+            </button>
+            </div>
+        </div>
+    </div>
+    <div id="signup">
+        <div class="container1">
+        <div class="signup">
+            <h1 class="signup">Login</h1>
+            <label for="email" id="email">Email ID</label>
+            <input type="text" placeholder="Enter your Email id">
+            <label for="password" id="password"> Password </label>
+            <input type="password" placeholder="Enter Your password">
+            <button class="submit">Signup</button>
+        </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="services">
+         <span>contact us</span>
+            <i class="fa-solid fa-envelope" style="color:black;"></i>
+            <input type="" targer="_blank" placeholder="kanisettidinesh4@gmail.com">
+            <i class="fa-solid fa-phone" style="color: green;"></i>
+            <input type="" targer="_blank" placeholder="+91 9392051908">
+           
+
+            
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
